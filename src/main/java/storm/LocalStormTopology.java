@@ -21,7 +21,7 @@ import java.util.Map;
 /**
  * Author:BYDylan
  * Date:2020/5/10
- * Description:Storm实现数字累加求和
+ * Description:Storm 实现数字累加求和
  * 分析: 1.需要一个spout负责源源不断的产生从1开始的递增数字
  * 2.需要一个bolt负责对spout产生的数据进行累加求和,并且把结果打印到控制台
  * 3.最后把这spout和bolt组装成一个topology
@@ -79,7 +79,7 @@ public class LocalStormTopology {
 
         /**
          * 声明输出字段 定义两个组件之间数据传输的一个规则
-         * 注意：只要这个组件(spout/spout)向外发射了数据，那么这个declareOutputFields就需要实现
+         * 注意：只要这个组件(spout/spout)向外发射了数据，那么这个 declareOutputFields 就需要实现
          */
         @Override
         public void declareOutputFields(OutputFieldsDeclarer declarer) {

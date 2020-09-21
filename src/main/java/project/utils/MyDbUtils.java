@@ -21,7 +21,7 @@ public final class MyDbUtils {// 拒绝继承
     static {
         try {
 //            调用该类时既注册驱动
-            String className = "com.mysql.jdbc.Driver";
+            String className = "com.mysql.cj.jdbc.Driver";
             Class.forName(className);
         } catch (Exception e) {
             e.printStackTrace();

@@ -10,8 +10,7 @@ public class MyDateUtils {
     private static String dateFormat2String = "yyyy-MM-dd HH:mm:ss";
 
     private static SimpleDateFormat dateFormat1 = new SimpleDateFormat("yyyy年MM月dd日 HH时mm分 E");
-    private static SimpleDateFormat dateFormat2 = new SimpleDateFormat(
-            MyDateUtils.dateFormat2String);
+    private static SimpleDateFormat dateFormat2 = new SimpleDateFormat(MyDateUtils.dateFormat2String);
     private static SimpleDateFormat dateFormat3 = new SimpleDateFormat("yyyy年MM月dd日  E");
     private static SimpleDateFormat dateFormat4 = new SimpleDateFormat("yyyy-MM-dd");
     private static SimpleDateFormat dateFormat5 = new SimpleDateFormat("MM月dd日HH时 E");

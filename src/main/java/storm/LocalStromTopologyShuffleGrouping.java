@@ -20,7 +20,7 @@ import java.util.Map;
 /**
  * Author:BYDylan
  * Date:2020/5/11
- * Description:随机分组， 随机派发stream里面的tuple， 保证bolt中的每个任务接收到的tuple数目相同.(它能实现较好的负载均衡)
+ * Description:随机分组,随机派发stream里面的tuple,保证bolt中的每个任务接收到的tuple数目相同.(它能实现较好的负载均衡)
  */
 public class LocalStromTopologyShuffleGrouping {
     public static void main(String[] args) throws Exception {

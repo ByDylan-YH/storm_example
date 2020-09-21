@@ -114,7 +114,6 @@ public class LocalStromTopologyAcker {
 //                说明tuple数据处理失败了
                 this.collector.fail(input);
             }
-
         }
 
         @Override
